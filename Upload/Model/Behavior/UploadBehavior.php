@@ -5,6 +5,7 @@
  * @copyright     Copyright (c) Erland Muchasaj
  * @link          http://erlandmuchasaj.com - Web Developer
  * @email         erlandi_20@hotmail.com
+ * @version	  v. 1.0
  */
 /* We create a behaviour that we will use to all models that support file upload with the same logic.*/
 class UploadBehavior extends ModelBehavior {
@@ -55,7 +56,7 @@ class UploadBehavior extends ModelBehavior {
 		$currentFilesize = $file['size'];	
 		return $currentFilesize<=$fileSize;
 	}
-
+	
 /*****************************************************
 * 		PROCESS MEDIA UPLOAD FOR AVATAR
 ******************************************************/
